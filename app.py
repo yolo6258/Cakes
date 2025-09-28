@@ -3,9 +3,9 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 cakes = [
-    {"name": "草莓小蛋糕", "price": 15, "img": "strawberry.jpg"},
-    {"name": "巧克力小蛋糕", "price": 18, "img": "chocolate.jpg"},
-    {"name": "抹茶小蛋糕", "price": 20, "img": "matcha.jpg"}
+    {"name": "草莓小蛋糕", "price": 15, "img": "static/strawberry.jpg"},
+    {"name": "巧克力小蛋糕", "price": 18, "img": "static/chocolate.jpg"},
+    {"name": "抹茶小蛋糕", "price": 20, "img": "static/matcha.jpg"}
 ]
 
 @app.route("/")
