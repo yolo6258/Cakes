@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 cakes = [
     {"name": "玫瑰烤焦了", "price": 15, "img": "static/strawberry.jpg"},
-    {"name": "斑斓, "price": 18, "img": "static/chocolate.jpg"},
+    {"name": "斑斓", "price": 18, "img": "static/chocolate.jpg"},
     {"name": "云顶海盐椰蓝", "price": 20, "img": "static/matcha.jpg"}
 ]
 
